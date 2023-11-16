@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious temptations 4u</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#menu">Menu</a></li>
+            <li class="item"><a href="#ourstory">Our Story</a></li>
+            <li class="item"><a href="#contactus">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Are You Craving?</h1>
+            <img src="img/burger.png" alt="Hero Image" class="hero">
+            <p>WE BAKE YOUR DREAMS...</p>
+            <hr>
+            <br>
+            <a href="#" class="order-now-btn">Order Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/image_bg1.png" alt="Hero Image">
+        </div>
+    </div>
+
+    <div class="blog-container">
+        <h2 class="blog-heading">OUR DELICIOUS MENU</h2>
+        <p class="blog-paragraph">Do note that unusual cake shapes, 3D fondant characters and toppers are not included in the prices, and
+            <br>will becharged extra, depening on the complexity of the design and the work involved.</p>
+    
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/p1.jpg" alt="Card Image 1">
+                <div class="card-content">
+                    <h3 class="card-heading">CHOCO-LICIOUS</h3>
+                    <p class="card-paragraph">Chocolate Truffle
+                        <br>
+                        Chocolate Cake with Dry Fruit Praline filling
+                        <br>
+                        Chocolate Cake with Caramel filling
+                        <br>
+                        Coffee Mocha Cake</p>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="img/p2.jpg" alt="Card Image 2">
+                <div class="card-content">
+                    <h3 class="card-heading">FLAVOUR WITH A TWIST</h3>
+                    <p class="card-paragraph">Vanilla Cake with Bubble Gum filling
+                        <br>
+                        Lemon Cranberry with Lavender Cream
+                        <br>
+                        Lemon Cranberry with Lavender Mousse
+                        <br>
+                        Thandai Cake
+                        <br>
+                        Pineapple/Orange Cake</p>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="img/p3.jpeg" alt="Card Image 3">
+                <div class="card-content">
+                    <h3 class="card-heading">INDO FUSION FEVER</h3>
+                    <p class="card-paragraph">Rasmalai Cake
+                        <br>
+                        Gulab JamunR abdi Cake
+                        <br>
+                        Rabdi Motichoor fillingcake
+                        <br>
+                        Chocolate Cake with Gajar Halwa filling</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="slider-section">
+        <div class="slider-content">
+            <p>DISCOVER</p>
+            <h2>DELICIOUS DIWALI</h2>
+            <h6>Serve our ‘DiwaliThemedCookies’ to your loved ones this year. Celebrate this Diwali with our Delicious
+                <br>Indo Fusion Fever Rasmalai cake, Gulab jamun cake and rabdi motichoor filling cake!</h6>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="cards">
+                    <img src="img/slider 1.png" alt="Card Image 1">
+                </div>
+                <div class="cards">
+                    <img src="img/slider 2.png" alt="Card Image 2">
+                </div>
+                <div class="cards">
+                    <img src="img/slider 3.png" alt="Card Image 3">
+                </div>
+                <div class="cards">
+                    <img src="img/slider 4.png" alt="Card Image 1">
+                </div>
+                <div class="cards">
+                    <img src="img/slider 5.png" alt="Card Image 2">
+                </div>
+                <div class="cards">
+                    <img src="img/slider 6.png" alt="Card Image 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advertisement-section">
+        <div class="collage">
+            <div class="large-image">
+                <img src="img/try_it_today_1.png" alt="Large Ad Image">
+            </div>
+            <div class="small-images">
+                <img src="img/try_it_today_2.png" alt="Small Ad Image 1">
+                <img src="img/try_it_today_3.png" alt="Small Ad Image 2">
+            </div>
+        </div>
+    </section>
+
+    <section id="contactus" class="contact-section">
+        <p class="contact-paragraph">PLEASE ORDER 2 WEEKS PRIOR FOR CUSTOM THEMED CAKES</p>
+        
+        <h2>YOUR DELICIOUS ORDER</h2>
+    
+        <form id="contact-form" action="#" method="post">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+    
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" name="eventDate" required>
+    
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+    
+            <label for="eventTime">Event Time:</label>
+            <input type="time" id="eventTime" name="eventTime" required>
+    
+            <label for="orderDetails">Additional Order Details:</label>
+            <textarea id="orderDetails" name="orderDetails" rows="4"></textarea>
+    
+            <button type="submit" class="order-button">Place Order</button>
+        </form>
+    
+    </section>
+
+    <footer id="footer" class="footer-section">
+        <div class="footer-container">
+            <div class="left-section">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="Footer Logo">
+                </div>
+                <div class="footer-details">
+                    <!-- <p>Company Name</p> -->
+                    <p>Delicioustemptations4Uspecializesincraftingcakes
+                        <br>andmouthwateringcookiesforeveryoccasion.
+                        <br> Ourpassionliesincreatingdelightfulandflavorful
+                        <br>treatsthatbringjoytoourcustomers'livesandadd</p>
+                    <!-- <p>Email: info@example.com</p> -->
+                </div>
+                <p class="copy-right-text">&copy; 2023 Your Company. All rights reserved.</p>
+            </div>
+    
+            <div class="right-section">
+                <div class="address">
+                    <p>123 Main Street, Cityville, State 12345, Country</p>
+                    <p>Email: info@example.com</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/DeliciousTemptations4u" target="_blank" class="icon-link"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/delicious_temptations_4U/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
