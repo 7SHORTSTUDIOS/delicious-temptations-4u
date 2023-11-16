@@ -44,6 +44,7 @@
 }
 
 #navbar ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: pink;
     list-style: none; 
     font-size: 20px;
@@ -73,6 +74,7 @@
 }
 
 .hero-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 500px;
     margin-left: 60px;
 }
@@ -133,6 +135,7 @@ hr{
 }
 
 .blog-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #a46547;
     padding-top: 40px;
     font-size: 45px;
@@ -206,6 +209,7 @@ hr{
 }
 
 .slider-content h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #efe7de;
     font-size: 36px;
     margin-bottom: 10px;
